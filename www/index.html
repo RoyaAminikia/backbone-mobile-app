@@ -1,0 +1,122 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Backbone.js and Twitter Bootstrap Sample App</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <style>
+        body {
+            /*padding-top: 60px;  60px to make the container go all the way to the bottom of the topbar */
+			font-family: Verdana;		
+        }
+    </style>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <!--<link rel="stylesheet" href="assets/css/ace.css" class="ace-main-stylesheet" id="main-ace-style" />-->
+ 
+</head>
+
+<body id="body">	
+    <ul id="menu">
+        <div class="header-menu">
+
+           		<img class="img-circle thumbnail" src="pics/DianaSiegler.jpg" height ="80px" width="80px" />
+           
+               <div class="font-size-11px font-bold color-#0E477F">
+                    <span class="font-size-15px color-white font-bold">Diana Dianasiegler</span>
+                    <br />
+                    <span class="color-white">100252463 </span>
+                    <br />
+                    <span> Information Technology </span>
+                    <br />
+                    <span> Harvad University </span>
+                </div> 
+           
+        </div>    
+        <li>
+        <a title="Profile" href="#profile"><i class="fa fa-user"></i> Profile</a>
+        </li>
+        
+        <li>
+        <a title="My Course" href="#courses"><i class="fa fa-book"></i> My Course</a>
+        </li>
+        
+        <li>
+        <a title="Notifications" href="#coursenotification"><i class="fa fa-bell-o"></i> Notification </a>
+        </li>
+        
+        <li>
+        <a title="Discussions" href="#discussionfirst"><i class="fa fa-comments-o"></i> Discussions</a>
+        </li> 
+        
+        <li>
+        <a title="MenAcademy" href="#menacademy"><i class="fa fa-university"></i> MenAcademy</a>
+        </li>
+        
+        <li>
+        <a title="Settings" href="#profile"><i class="fa fa-cog"></i> Settings</a>
+        </li>
+        
+        <li>
+        <a title="Logout" href=""><i class="fa fa-sign-out"></i> Logout</a>
+        </li>
+        
+     </ul>
+    <div id="page">   
+        <div class="header"></div>
+        <div class="container" id="content"></div>
+    </div>
+
+
+<!--<div class="container">
+    <div class="row">
+        <div id="content"></div>
+    </div>
+</div>-->
+
+
+<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="lib/underscore-min.js"></script>
+<script src="lib/backbone-min.js"></script>
+<script src="assets/js/bootstrap.js"></script> 
+
+
+
+<script src="js/main.js"></script> 
+<script src="js/utils.js"></script>
+<script src="js/views/header.js"></script>
+<script src="js/views/login.js"></script>
+<script src="js/views/profile.js"></script>
+<script src="js/views/peoplefirst.js"></script>
+<script src="js/views/peopleprofile.js"></script>
+<script src="js/views/messagefirst.js"></script>
+<script src="js/views/messagesecond.js"></script>
+<script src="js/views/messagereply.js"></script>
+<script src="js/views/choosepeople.js"></script>
+<script src="js/views/courses.js"></script>
+<script src="js/views/coursedetail.js"></script>
+<script src="js/views/coursenotification.js"></script>
+<script src="js/views/messagedelete.js"></script>
+<script src="js/views/achievement.js"></script>
+<script src="js/views/teacherreports.js"></script>
+<script src="js/views/menacademy.js"></script>
+<script src="js/views/academydetail.js"></script>
+<script src="js/views/discussionfirst.js"></script>
+<script src="js/views/discussionsecond.js"></script>
+<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+<script src="http://code.highcharts.com/highcharts.js"></script>
+
+<!-- the following scripts are used in demo only for onpage help and you don't need them -->
+<script src="assets/js/jquery.easypiechart.js"></script>
+
+<!-- ace scripts -->
+<script src="assets/js/ace/ace.js"></script>
+<script src="assets/js/ace/ace.ajax-content.js"></script>
+
+ 
+
+</body>
+</html>
